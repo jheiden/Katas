@@ -1,0 +1,2 @@
+# Katas
+coding challenges / katas
