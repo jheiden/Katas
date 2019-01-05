@@ -4,11 +4,10 @@
 
 
 def letter_capitalize(str)
-
-    
-
+    #return str.split(" ").each{|wrd| wrd.to_s.capitalize!}
+    return str.split(" ").map{|wrd| wrd.to_s.capitalize}
 end
 
 
-
-letter_capitalize("Argument goes here")
+x = letter_capitalize("Argument goes here")
+puts x
